@@ -22,7 +22,7 @@ cd /vagrant/canvas
 RAILS_ENV={production|development|test} bundle exec rake db:initial_setup
 ```
 
-Then load https://canvas-lms.dev:4443.
+Then load https://canvas.rayku.net:4443.
 
 Canvas is cloned into the shared vagrant folder, as `./canvas`.
 

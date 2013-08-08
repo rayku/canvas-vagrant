@@ -1,6 +1,6 @@
 <VirtualHost *:80>
-  ServerName canvas-lms.dev
-  ServerAlias files.canvas-lms.dev
+  ServerName canvas.rayku.net
+  ServerAlias files.canvas.rayku.net
   ServerAdmin youremail@example.com
   DocumentRoot <%= @destination %>/public
   RewriteEngine On
@@ -17,8 +17,8 @@
   </Directory>
 </VirtualHost>
 <VirtualHost *:443>
-  ServerName canvas-lms.dev
-  ServerAlias files.canvas-lms.dev
+  ServerName canvas.rayku.net
+  ServerAlias files.canvas.rayku.net
   ServerAdmin youremail@example.com
   DocumentRoot <%= @destination %>/public
   ErrorLog /var/log/apache2/canvas_errors.log
